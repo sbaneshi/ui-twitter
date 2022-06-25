@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  ir.ac.ui.akka.AkkaAutoConfig,\
+  ir.ac.ui.user.UserAutoConfig,\
+  ir.ac.ui.connection.ConnectionAutoConfig

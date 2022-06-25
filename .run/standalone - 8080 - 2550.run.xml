@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="standalone - 8080 - 2550" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" />
+    <additionalParameters>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="server.port" />
+        <option name="value" value="8080" />
+      </param>
+    </additionalParameters>
+    <envs>
+      <env name="CLUSTER_IP" value="127.0.0.1" />
+      <env name="CLUSTER_PORT" value="2550" />
+      <env name="CLUSTER_ROLES.0" value="user" />
+      <env name="CLUSTER_ROLES.1" value="connection" />
+      <env name="CLUSTER_SEED" value="127.0.0.1:2550" />
+    </envs>
+    <module name="ui-twitter" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ir.ac.ui.twitter.UiTwitterApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
