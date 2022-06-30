@@ -16,7 +16,6 @@
     <envs>
       <env name="CLUSTER_IP" value="127.0.0.1" />
       <env name="CLUSTER_PORT" value="2552" />
-      <env name="CLUSTER_ROLES.0" value="user" />
       <env name="CLUSTER_SEED" value="127.0.0.1:2550" />
     </envs>
     <module name="ui-twitter" />
