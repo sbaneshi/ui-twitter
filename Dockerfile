@@ -5,4 +5,4 @@ COPY ./ ./
 # package our application code
 RUN mvn clean package
 # set the startup command to execute the jar
-CMD ["java", "-jar", "target/ui-twitter-1.0.0.jar"]
+CMD ["java", "-jar", "target/ui-twitter-1.0.1.jar"]
