@@ -12,6 +12,8 @@
       <env name="CLUSTER_IP" value="127.0.0.1" />
       <env name="CLUSTER_PORT" value="2550" />
       <env name="CLUSTER_SEED" value="127.0.0.1:2550" />
+      <env name="GRAYLOG_IP" value="192.168.122.1" />
+      <env name="GRAYLOG_PORT" value="12201" />
     </envs>
     <module name="ui-twitter" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="ir.ac.ui.twitter.UiTwitterApplication" />
